@@ -116,10 +116,38 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: verdana, sans-serif;
-  font-size: 96px;
+  font-size: 86px;
   font-weight: bold;
   color: white;
 }
+
+/* menu home image button styling */
+.menu-button-image {
+  position: absolute;
+  width: 180px;
+  height: 70px;
+  top: 80%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ef5b7f;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 17px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.menu-button-image:hover {
+  background-color: #0ebbc0;
+}
+
+
+
+
 
 /* text module styling */
 .text-module {
