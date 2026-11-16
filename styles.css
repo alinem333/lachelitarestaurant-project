@@ -4,26 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+
+
 /* Body Styling */
 body {
-    font-family: Baskerville, serif;
-    background-color: pink;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 }
 /* Navigation Bar Container */
 .navbar {
-    background-color: white;
+    background-color: #0ebbc0;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 
 /* Logo Styling */
-.logo img {
-    height: 50px;
+.la-chelitasmalllogo img {
+    height: 70px;
     width: auto;
 }
 
@@ -44,14 +50,226 @@ body {
     text-decoration: none;
     font-size: 18px;
     transition: all 0.3s ease;
+    font-weight: bold;
 }
 
 /* Hover Effect for Navigation Links */
 .navbar a:hover {
-    color: #ff85c8;
+    color: #ef5b7f;
 }
+
+
+
+
+
+
 /* food image styling */
-.food-image {
+.chickentortillasoup img {
     height: 100px;
     width: auto;
+}
+
+/* divider pattern styling */
+.divider-pattern {
+    height: 40px;
+    background-color: #ff4020;
+    background-image: url('divider-patterntwo.png');
+    background-repeat: repeat-x;
+    background-position: center;
+        background-position-x:center;
+        background-position-y:center;
+    background-size: 60px 40px;
+    border-block: 1px solid #ff4020;
+        border-block-start-width: 1px;
+        border-block-end-width: 1px;
+        border-block-start-style: solid;
+        border-block-end-style: solid;
+        border-block-start-color: rgb(255, 64, 32);
+        border-block-end-color: rgb(255, 64, 32);
+}
+
+/*order online button styling */
+
+
+
+
+
+
+/*large food screen image styling */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.steakcloseup img {
+    height: 500px;
+    width: auto;
+}
+
+
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: verdana, sans-serif;
+  font-size: 96px;
+  font-weight: bold;
+  color: white;
+}
+
+/* text module styling */
+.text-module {
+    color: #0ebbc0;
+    font-family: Verdana, sans-serif;
+
+}
+
+.text-module-para{
+    color:#ef5b7f;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* Content Section Layout */
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+/* Image Box Styling */
+.image-row img {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Text Module Styling */
+.text-module {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.text-module-para {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 400px;
+}
+/*image box styling */
+.image-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 60%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ef5b7f;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: #0ebbc0;
+}
+
+
+.email-box {
+    
+    display: flex;
+    border: 2px solid #ef5b7f;
+    background-color: #ef5b7f;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+
+
+
+
+
+* second box on home page*/
+.container-second {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container-second img {
+  width: 60%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container-second .btn {
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  top: 80%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ef5b7f;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: #0ebbc0;
 }
